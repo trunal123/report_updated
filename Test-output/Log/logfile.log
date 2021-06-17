@@ -1,0 +1,32 @@
+17 Jun 2021 03:09:54 INFO   [Log] - Logger invoked
+17 Jun 2021 03:09:54 INFO   [Log] - Chrome invoked
+17 Jun 2021 03:10:24 ERROR  [SeleniumCommon] - unknown error: Chrome failed to start: crashed.
+  (chrome not reachable)
+  (The process started from chrome location C:\Program Files\Google\Chrome\Application\chrome.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-RV8IOMF', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00F4C013+2474003]
+	Ordinal0 [0x00EE29C1+2042305]
+	Ordinal0 [0x00DF2F68+1060712]
+	Ordinal0 [0x00E1024D+1180237]
+	Ordinal0 [0x00E0AA83+1157763]
+	Ordinal0 [0x00E3A2A2+1352354]
+	Ordinal0 [0x00E38FAA+1347498]
+	Ordinal0 [0x00E366DB+1337051]
+	Ordinal0 [0x00E13427+1192999]
+	Ordinal0 [0x00E142EE+1196782]
+	Ordinal0 [0x00E14279+1196665]
+	GetHandleVerifier [0x010D96FC+1590332]
+	GetHandleVerifier [0x01188614+2306900]
+	GetHandleVerifier [0x00FD9E93+543699]
+	GetHandleVerifier [0x00FD92CE+540686]
+	Ordinal0 [0x00EE86BA+2066106]
+	Ordinal0 [0x00EED1C8+2085320]
+	Ordinal0 [0x00EED308+2085640]
+	Ordinal0 [0x00EF67F3+2123763]
+	BaseThreadInitThunk [0x77BFFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77D57A7E+286]
+	RtlGetAppContainerNamedObjectPath [0x77D57A4E+238]
+
